@@ -7,7 +7,6 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes"
-	"os"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/external-dns/source"
 )
@@ -30,7 +29,7 @@ func main() {
 	for _, node := range nodes.Items {
 		fmt.Println(node.GetName())
 	}
-	os.Exit(1)
+	// os.Exit(1)
 
 	ctx := context.Background()
 	namespace := ""
