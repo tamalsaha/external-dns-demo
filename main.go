@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/kubernetes"
@@ -32,9 +33,9 @@ func main() {
 	// os.Exit(1)
 
 	ctx := context.Background()
-	namespace := ""
+	namespace := "default"
 	annotationFilter := ""
-	fqdnTemplate := ""
+	fqdnTemplate := "xyz.appscode.ninja"
 	combineFqdnAnnotation := false
 	ignoreHostnameAnnotation := false
 	ignoreIngressTLSSpec := false
