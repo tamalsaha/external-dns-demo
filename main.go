@@ -38,7 +38,7 @@ func main() {
 	fqdnTemplate := "xyz.appscode.ninja"
 	combineFqdnAnnotation := false
 	ignoreHostnameAnnotation := false
-	ignoreIngressTLSSpec := false
+	ignoreIngressTLSSpec := true // for nats
 	ignoreIngressRulesSpec := false
 	labelSelector := labels.SelectorFromSet(map[string]string{})
 
