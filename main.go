@@ -33,9 +33,14 @@ func main() {
 	// os.Exit(1)
 
 	ctx := context.Background()
-	namespace := "default"
+	//namespace := "default"
+	//annotationFilter := ""
+	//fqdnTemplate := "xyz.appscode.ninja"
+
+	namespace := "bb"
 	annotationFilter := ""
-	fqdnTemplate := "xyz.appscode.ninja"
+	fqdnTemplate := ""
+
 	combineFqdnAnnotation := false
 	ignoreHostnameAnnotation := false
 	ignoreIngressTLSSpec := true // for nats

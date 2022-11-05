@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f1f110e-81a5-4173-8a81-476423b5344a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <module name="external-dns-demo" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
-        <env name="KUBECONFIG" value="$USER_HOME$/Downloads/ingress-demo-kubeconfig.yaml" />
+        <env name="KUBECONFIG" value="$USER_HOME$/Downloads/appscode-ninja-kubeconfig.yaml" />
       </envs>
       <kind value="PACKAGE" />
       <package value="github.com/tamalsaha/external-dns-demo" />
@@ -78,7 +79,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/main.go</url>
-          <line>59</line>
+          <line>64</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
